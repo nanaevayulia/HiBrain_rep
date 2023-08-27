@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1200">
+    <title>HiBrain Доска объявлений</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__container d-grid items-cntr">
+            <a class="header__logo" href="index.html"><img src="images/logo-hibrain-gray.png" alt="hiBrain" width="93"></a>
+            <img src="images/search.svg" alt="search">
+            <a class="header__btn-announcement f-size-16px" href="#">Разместить объявление</a>
+            <a class="header__login d-flex sb items-cntr" href="#">
+                <img src="images/user.svg" alt="">
+                <span>Войти</span>
+            </a>
+        </div>
+    </header>
+    <!-- Доска объявлений -->
+    <section class="searching">
+        <div class="container searching__container d-flex sb items-cntr">
+            <div class="searching__board d-grid">
+                <h1 class="ff-RobotoSlab-B">Доска объявлений</h1>
+                <p class="f-size-16px">Обо всех важных событиях IT и Digital мира: дайджесты курсов, полезные ресурсы, митапы,
+                    конференции, хакатоны и новости от команды HiBrain</p>
+                <form class="search-form searching__search-form">
+                    <input class="search-form__input" type="search" name="search" class="f-size-16px" placeholder="Поиск">
+                    <button class="search-form__button" type="submit"><img src="images/search.svg" alt=""></button>
+                </form>
+            </div>
+            <img src="images/shouter.png" alt="">
+        </div>
+    </section>   
+    <!-- Меню -->
+    <nav class="menu">
+        <div class="container menu__container">
+            <ul class="menu__items d-flex sb items-cntr">
+                <a href="#tape-board"><li class="f-size-16px">Вся доска</li></a>
+                <a href="#"><li class="f-size-16px">Бытовая техника</li></a>
+                <a href="#"><li class="f-size-16px">Одежда</li></a>
+                <a href="#"><li class="f-size-16px">Автомобили</li></a>
+                <a href="#"><li class="f-size-16px">Телефоны</li></a>
+            </ul>
+        </div>
+    </nav>
+    <!-- Лента -->
+    <section class="tape">
+        <div class="container tape__container">
+            <h2 class="ff-RobotoSlab-B" id="tape-board">Вся доска</h2>
+            <div class="tape__container-tape d-grid">
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/headphones.jpg" alt="">
+                        </div>
+                        <span>Техника</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3 class="tape-item_h3-blue">Стиральная машинка Bosch</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <span class="tape-item__price">1000 p</span>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/town.jpg" alt="">
+                        </div>
+                        <span>Одежда</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3>Шапочка</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/town.jpg" alt="">
+                        </div>
+                        <span>Одежда</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3>Шапочка</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="tape-item tape__tape-item" class="tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/headphones.jpg" alt="">
+                        </div>
+                        <span>Статьи</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3 class="tape-item_h3-blue">Дайджест IT-вакансий за март 2021</h3>
+                        <p>Актуальные вакансии Intern и Junior<br>IT-разработчикам в Нижнем Новгороде.
+                            Предложения работы от партнёров платформы подготовки и трудоустройства IT-специалистов HiBrain.</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/town.jpg" alt="">
+                        </div>
+                        <span>Статьи</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3>С Новым 2021 годом!</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+               </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/town.jpg" alt="">
+                        </div>
+                        <span>Статьи</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3>С Новым 2021 годом!</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/headphones.jpg" alt="">
+                        </div>
+                        <span>Статьи</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3 class="tape-item_h3-blue">Дайджест IT-вакансий за март 2021</h3>
+                        <p>Актуальные вакансии Intern и Junior<br>IT-разработчикам в Нижнем Новгороде.
+                            Предложения работы от партнёров платформы подготовки и трудоустройства IT-специалистов HiBrain.</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/town.jpg" alt="">
+                        </div>
+                        <span>Статьи</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3>С Новым 2021 годом!</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+               </a>
+                <a class="tape-item tape__tape-item" href="#">
+                    <div class="tape-item__top">
+                        <div class="tape-item__preview">
+                            <img src="images/town.jpg" alt="">
+                        </div>
+                        <span>Статьи</span>
+                    </div>
+                    <div class="tape-item__bottom d-grid">
+                        <h3>С Новым 2021 годом!</h3>
+                        <p>Уходящий год для айтишников прошёл под девизом: «Work hard, learn more».</p>
+                        <div class="tape-item__date-views d-flex sb items-cntr">
+                            <span>14 апреля 2021</span>
+                            <div class="tape-item__views d-flex items-cntr">
+                                <img src="images/eye.svg" alt="">
+                                <span>356</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- Кнопка "Загрузить ещё" -->
+            <a class="tape__btn-load d-flex sb items-cntr" href="#">
+                <img src="images/arrows.svg" alt="">
+                <span class="f-size-16px ff-RobotoSlab-B">Загрузить еще</span>
+            </a>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__top d-grid items-cntr">
+                <a class="footer__logo" href="index.html"><img src="images/logo-hibrain-white.png" alt="hiBrain" width="91"></a>
+                <span>Платформа подготовки и трудоустройства IT-специалистов</span>
+                <div class="footer__social-media d-flex">
+                    <a href="#"><img src="images/facebook.svg" alt=""></a>
+                    <a href="#"><img src="images/instagramm.svg" alt=""></a>
+                    <a href="https://vk.com/hibrain_edu" target="_blank"><img src="images/vk.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer__center">
+                <ul class="d-flex sb items-cntr">
+                    <a href="#"><li class="f-size-16px">Курсы</li></a>
+                    <a href="#"><li class="f-size-16px">Трудоустройство</li></a>
+                    <a href="#"><li class="f-size-16px">Сотрудничество</li></a>
+                    <a href="#"><li class="f-size-16px">О Hibrain</li></a>
+                    <a href="#"><li class="f-size-16px">Новости</li></a>
+                    <a href="#"><li class="f-size-16px">Контакты</li></a>
+                </ul>
+            </div>
+            <div class="footer__bottom d-flex sb items-cntr">
+                <span>© ООО "Лад Ай Ти", 2020</span>
+                <a class="footer footer_underline" href="#">Политика конфиденциальности</a>
+                <a href="mailto:support@hibrain.pro">support@hibrain.pro</a>
+                <a href="tel:88000000000">8 800 000 00 00</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
